@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* font importer */
+#profile {
+  background-color: white;
+  min-height: 600px;
+}
+
+#profile p {
+  margin: 20px;
+  color: black;
+  line-height: 1.75;
+  text-align: justify;
+}
+
+#profile img {
+  width: 70%;
+  min-height: 250px;
+  margin: 0 15%;
+}
+
+#projects {
+  background-color: #eeeeee;
+  min-height: 600px;
+}
+/*# sourceMappingURL=about_me.css.map */

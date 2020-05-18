@@ -1,0 +1,15 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    @include flexCenter();
+    // text-align: center;
+}
+  
+.snap-point{
+    font-size: 15px;
+    margin: 5%;    
+}
