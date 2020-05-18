@@ -60,6 +60,20 @@ body {
   width: 100%;
 }
 
+#index {
+  text-align: center;
+}
+
+.index_name {
+  font-size: 55px;
+  margin: 35% auto 0 auto;
+}
+
+.index_subtitle {
+  font-size: 25px;
+  margin: 5% auto 0 auto;
+}
+
 /* For tablets: */
 @media only screen and (min-width: 600px) {
   .col-s-1 {
@@ -150,19 +164,5 @@ body {
   .index_subtitle {
     margin: 1% auto 0 auto;
   }
-}
-
-#index {
-  text-align: center;
-}
-
-.index_name {
-  font-size: 55px;
-  margin: 35% auto 0 auto;
-}
-
-.index_subtitle {
-  font-size: 25px;
-  margin: 5% auto 0 auto;
 }
 /*# sourceMappingURL=index.css.map */
