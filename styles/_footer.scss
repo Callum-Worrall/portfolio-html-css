@@ -4,17 +4,21 @@
     align-items: center;
 }
 
-header {
-    width: 100%;
+footer {
     position: fixed;
     left: 50%;
-    top: 6%;
+    bottom: 0%;
     transform: translate(-50%, -50%);
     // @include flex_center();
 }
-  
-.snap-point{
+
+.email {
     font-size: 15px;
-    text-align: center;
-    // margin: 5%;    
+    text-align: center; 
+}
+
+.icons {
+    // font-size: 15px;
+    // text-align: center; 
+    @include flex_center();
 }

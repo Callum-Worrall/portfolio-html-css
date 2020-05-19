@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    margin: 0;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -15,24 +16,8 @@ body{
 .row {  
     display: flex;
     flex-direction: row;
+    // justify-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-#footer{
-    font-size: 10px;
-    margin: 35% auto 0 auto;
-    text-align: center;
-}
-
-.title{
-    text-align: center;
-}
-
-
-/* Media queries for responsive design */
-
-/* For mobile phones: */
-[class*="col-"]{
-    width: 100%;
+    // width: 75%;
 }

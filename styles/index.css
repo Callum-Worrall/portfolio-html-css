@@ -1,21 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.snap-point {
-  font-size: 15px;
-  margin: 5%;
-}
-
 /* font importer */
 /* apply margin and padding 0 to all elements */
 * {
@@ -26,6 +9,7 @@ header {
 }
 
 body {
+  margin: 0;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -44,13 +28,60 @@ body {
       flex-wrap: wrap;
 }
 
-#footer {
-  font-size: 10px;
-  margin: 35% auto 0 auto;
+header {
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  top: 6%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.snap-point {
+  font-size: 15px;
   text-align: center;
 }
 
-.title {
+footer {
+  position: fixed;
+  left: 50%;
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.email {
+  font-size: 15px;
+  text-align: center;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.index_name {
+  font-size: 55px;
+  text-align: center;
+}
+
+.index_subtitle {
+  font-size: 25px;
   text-align: center;
 }
 
@@ -58,20 +89,6 @@ body {
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
-}
-
-#index {
-  text-align: center;
-}
-
-.index_name {
-  font-size: 55px;
-  margin: 35% auto 0 auto;
-}
-
-.index_subtitle {
-  font-size: 25px;
-  margin: 5% auto 0 auto;
 }
 
 /* For tablets: */
@@ -157,12 +174,6 @@ body {
   }
   .snap-point {
     display: none;
-  }
-  .index_name {
-    margin: 18% auto 0 auto;
-  }
-  .index_subtitle {
-    margin: 1% auto 0 auto;
   }
 }
 /*# sourceMappingURL=index.css.map */

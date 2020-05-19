@@ -1,20 +1,29 @@
-@import "header";
 @import "style";
+@import "header";
+@import "footer";
 
-#index{
-    text-align: center;
+.content {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
 }
 
 .index_name{
-    font-size: 55px;    
-    // position: fixed;
-    // top: 100px;
-    margin: 35% auto 0 auto
+    font-size: 55px;
+    text-align: center;
 }
 
-.index_subtitle{
+.index_subtitle{    
     font-size: 25px;
-    margin: 5% auto 0 auto
+    text-align: center;
+}
+
+/* Media queries for responsive design */
+
+/* For mobile phones: */
+[class*="col-"]{
+    width: 100%;
 }
 
 /* For tablets: */
@@ -51,7 +60,4 @@
     .col-12 {width: 100%;}
 
     .snap-point {display: none;}
-    // #index{margin: 0.05% auto 0 auto}
-    .index_name{margin: 18% auto 0 auto}
-    .index_subtitle{margin: 1% auto 0 auto}
 }
