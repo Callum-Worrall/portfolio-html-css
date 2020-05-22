@@ -5,11 +5,7 @@
 }
 
 footer {
-    position: fixed;
-    left: 50%;
-    bottom: 0%;
-    transform: translate(-50%, -50%);
-    // @include flex_center();
+    margin: 120px 0 0 0;
 }
 
 .email {
@@ -18,7 +14,6 @@ footer {
 }
 
 .icons {
-    // font-size: 15px;
-    // text-align: center; 
-    @include flex_center();
+    font-size: 40px;
+    text-align: center;
 }

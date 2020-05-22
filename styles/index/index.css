@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+header {
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  top: 6%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.navigation a {
+  font-size: 15.5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #313131;
+  text-decoration: underline;
+}
+
+.navigation a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+footer {
+  margin: 120px 0 0 0;
+}
+
+.email {
+  font-size: 15px;
+  text-align: center;
+}
+
+.icons {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* font importer */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  margin: -20% 0 0 0;
+  font-size: 55px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.paragraph {
+  margin: 20px 2%;
+}
+
+/* i need to do zombies flexbox game to understand this */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* Media queries for responsive design */
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  header {
+    font-size: 1.7em;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  header {
+    font-size: 200%;
+  }
+  footer {
+    font-size: 150%;
+  }
+}
+
+content {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 50%;
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* Media queries for responsive design */
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

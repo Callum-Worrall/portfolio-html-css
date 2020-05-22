@@ -1,22 +1,28 @@
 @import "style";
-@import "header";
-@import "footer";
 
-.content {
+content{
     position: fixed;
     left: 50%;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
-.index_name{
+h1{
     font-size: 55px;
     text-align: center;
 }
 
-.index_subtitle{    
+h2{    
     font-size: 25px;
     text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    // @include flex_center();
 }
 
 /* Media queries for responsive design */
@@ -40,8 +46,6 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-
-    .snap-point {font-size: 1.7em;}
 }
 
     /* For desktop: */
@@ -58,6 +62,4 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-
-    .snap-point {display: none;}
 }
