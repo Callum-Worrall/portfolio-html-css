@@ -35,16 +35,28 @@ h2{
     margin: 10px;
 }
 
-.skill_icon{
-    font-size: 450%;
+.resume a{
+    font-size: 40px;
 }
 
-.dot {
-    height: 100px;
-    width: 100px;    
-    border-radius: 50%;
-    display: inline-block;
-    // background-color: #bbb;
+.resume a:link{
+    font-size: 40px;
+}
+
+.resume a:hover{
+    font-size: 40px;
+}
+
+.resume a:active{
+    font-size: 40x;
+}
+
+.resume a:visited{
+    font-size: 40px;
+}
+
+.skill_icon{
+    font-size: 450%;
 }
 
 /* Tablets: */

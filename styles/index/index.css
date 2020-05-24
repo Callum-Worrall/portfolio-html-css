@@ -37,7 +37,7 @@ header {
 }
 
 footer {
-  margin: 80px 0 90px 0;
+  margin: 80px 0 50px 0;
 }
 
 .email {
@@ -83,6 +83,26 @@ header {
 }
 
 .navigation a:active {
+  color: #524948;
+}
+
+.resume a {
+  color: #363232;
+}
+
+.resume a:link {
+  color: #363232;
+}
+
+.resume a:visited {
+  color: #363232;
+}
+
+.resume a:hover {
+  color: #524948;
+}
+
+.resume a:active {
   color: #524948;
 }
 
@@ -250,8 +270,8 @@ body {
   z-index: 3;
   width: 1px;
   height: 160px;
-  left: 15%;
-  bottom: -10px;
+  left: -45%;
+  bottom: -500px;
 }
 
 #smoke_right {
@@ -259,8 +279,8 @@ body {
   z-index: 3;
   width: 1px;
   height: 160px;
-  left: 85%;
-  bottom: -10px;
+  left: 125%;
+  bottom: -500px;
 }
 
 /* smoke balls */

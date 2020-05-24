@@ -26,6 +26,12 @@ header{
 .navigation a:hover { color: $colour04; }
 .navigation a:active { color: $colour04; }
 
+.resume a{ color: $text; }
+.resume a:link { color:$text; }
+.resume a:visited { color: $text; }
+.resume a:hover { color: $colour04; }
+.resume a:active { color: $colour04; }
+
 //General
 html {
     color: $text;

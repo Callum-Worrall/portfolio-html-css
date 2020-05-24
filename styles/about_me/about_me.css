@@ -37,7 +37,7 @@ header {
 }
 
 footer {
-  margin: 80px 0 90px 0;
+  margin: 80px 0 50px 0;
 }
 
 .email {
@@ -83,6 +83,26 @@ header {
 }
 
 .navigation a:active {
+  color: #524948;
+}
+
+.resume a {
+  color: #363232;
+}
+
+.resume a:link {
+  color: #363232;
+}
+
+.resume a:visited {
+  color: #363232;
+}
+
+.resume a:hover {
+  color: #524948;
+}
+
+.resume a:active {
   color: #524948;
 }
 

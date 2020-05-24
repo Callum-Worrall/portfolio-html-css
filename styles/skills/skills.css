@@ -37,7 +37,7 @@ header {
 }
 
 footer {
-  margin: 80px 0 90px 0;
+  margin: 80px 0 50px 0;
 }
 
 .email {
@@ -83,6 +83,26 @@ header {
 }
 
 .navigation a:active {
+  color: #524948;
+}
+
+.resume a {
+  color: #363232;
+}
+
+.resume a:link {
+  color: #363232;
+}
+
+.resume a:visited {
+  color: #363232;
+}
+
+.resume a:hover {
+  color: #524948;
+}
+
+.resume a:active {
   color: #524948;
 }
 
@@ -274,15 +294,28 @@ h2 {
   margin: 10px;
 }
 
-.skill_icon {
-  font-size: 450%;
+.resume a {
+  font-size: 40px;
 }
 
-.dot {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  display: inline-block;
+.resume a:link {
+  font-size: 40px;
+}
+
+.resume a:hover {
+  font-size: 40px;
+}
+
+.resume a:active {
+  font-size: 40x;
+}
+
+.resume a:visited {
+  font-size: 40px;
+}
+
+.skill_icon {
+  font-size: 450%;
 }
 
 /* Tablets: */
