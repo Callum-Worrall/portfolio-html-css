@@ -31,13 +31,13 @@ img {
     }
 
     img {
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
         margin: 5px;
     }
 
     .caption {
-        margin: 6px 6% 40px;
+        margin: 6px 12% 40px;
         text-align: left;
         font-size: 150%;
     }
@@ -56,10 +56,17 @@ img {
 @media only screen and (min-width: 1000px) {
     .fake_img{
         padding: 200px;
-        margin: 0 5%;
+        margin: 0 100px;
     }
 
     div.item {
-        margin: 40px 7%;
+        margin: 40px 3%;
     }
+    
+    // footer{
+    //     position: fixed;
+    //     left: 50%;
+    //     bottom: 1%;
+    //     transform: translate(-50%, -50%);
+    // }
 }
