@@ -20,24 +20,21 @@ h2{
 footer{
     position: fixed;
     left: 50%;
-    bottom: 0%;
+    bottom: 1%;
     transform: translate(-50%, -50%);
-    // @include flex_center();
 }
 
-/* Media queries for responsive design */
-
-/* For mobile phones: */
-[class*="col-"]{
-    width: 100%;
-}
-
-/* For tablets: */
+/* Tablets: */
 @media only screen and (min-width: 600px) {
 
 }
 
-    /* For desktop: */
+/* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
+
+}
+
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
 
 }

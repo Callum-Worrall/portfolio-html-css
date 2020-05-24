@@ -19,13 +19,8 @@ img {
     margin:0 0 50px
 }
 
-/* Mobile: */
-[class*="col-"]{
-    width: 100%;
-}
-
 /* Tablet: */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
     div.item {
         width: 620px;
     }
@@ -62,11 +57,4 @@ img {
     div.item {
         margin: 40px 3%;
     }
-    
-    // footer{
-    //     position: fixed;
-    //     left: 50%;
-    //     bottom: 1%;
-    //     transform: translate(-50%, -50%);
-    // }
 }

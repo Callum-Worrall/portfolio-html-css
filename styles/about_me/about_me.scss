@@ -1,22 +1,21 @@
 @import "../style";
 
-/* Media queries for responsive design */
-
-/* For mobile phones: */
-[class*="col-"]{
-    width: 100%;
-}
-
-// footer {
-//     margin: 120px 0 0 0;
-// }
-
-/* For tablets: */
+/* Tablets: */
 @media only screen and (min-width: 600px) {
 
 }
 
-    /* For desktop: */
+/* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
 
+}
+
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
+    footer{
+        position: fixed;
+        left: 50%;
+        bottom: 1%;
+        transform: translate(-50%, -50%);
+    }
 }

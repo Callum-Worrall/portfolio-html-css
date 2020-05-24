@@ -10,7 +10,6 @@ div .post {
 
 div.post_head{
     padding: 18px 5px;
-    background-color: rgb(236, 236, 236);
     margin: 50px 0 10px;
     vertical-align: middle;
     table-layout: fixed;
@@ -32,27 +31,16 @@ div.post_head{
     line-height: 0;
 }
 
-img{
-    background-color:  rgb(236, 236, 236);
-}
-
 .post_body{
     padding: 5px 2px;
     margin: 10px 0;
     width: 100%;    
-    background-color:  rgb(236, 236, 236);
+    text-align: left;
 }
 
 .paragraph{
     vertical-align: middle;
     margin: 5px 5px;
-}
-
-/* Media queries for responsive design */
-
-/* Mobiles: */
-[class*="col-"]{
-    width: 100%;
 }
 
 /* Tablets: */
@@ -78,5 +66,10 @@ img{
 
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
+
+}
+
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
 
 }

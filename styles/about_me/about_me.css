@@ -8,7 +8,6 @@ header {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 15.5px;
-  background: white;
 }
 
 .navigation a {
@@ -18,22 +17,18 @@ header {
 }
 
 .navigation a:link {
-  color: black;
   text-decoration: none;
 }
 
 .navigation a:visited {
-  color: black;
   text-decoration: none;
 }
 
 .navigation a:hover {
-  color: #313131;
   text-decoration: underline;
 }
 
 .navigation a:active {
-  color: black;
   text-decoration: underline;
 }
 
@@ -54,6 +49,53 @@ div .social_icons {
   margin-top: 10px 0 0 0;
   font-size: 40px;
   text-align: center;
+}
+
+header {
+  color: #524948;
+  background-color: #ea5c5e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #ea5c5e), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom, #ea5c5e 90%, rgba(0, 0, 0, 0));
+}
+
+.navigation a {
+  color: #524948;
+}
+
+.navigation a:link {
+  color: #524948;
+}
+
+.navigation a:visited {
+  color: #524948;
+}
+
+.navigation a:hover {
+  color: #57467b;
+}
+
+.navigation a:active {
+  color: #57467b;
+}
+
+html {
+  color: #524948;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ea5c5e), to(#29a0a4));
+  background: linear-gradient(to bottom, #ea5c5e 10%, #29a0a4);
+  background-attachment: fixed;
+}
+
+div.post_head {
+  color: #ea5c5e;
+  background-color: #216492;
+}
+
+.post_body {
+  color: white;
+  background-color: #ea5c5e;
 }
 
 * {
@@ -109,7 +151,6 @@ div.sub_item {
 .fake_img {
   vertical-align: top;
   display: inline-block;
-  background-color: #b9b9b9;
   padding: 130px 130px;
   margin: 5px;
 }
@@ -182,12 +223,16 @@ div.sub_item {
   }
 }
 
-/* Media queries for responsive design */
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+/* Tablets: */
+/* iPad/Desktop: */
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
+  footer {
+    position: fixed;
+    left: 50%;
+    bottom: 1%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
 }
-
-/* For tablets: */
-/* For desktop: */
 /*# sourceMappingURL=about_me.css.map */
