@@ -1,8 +1,23 @@
-/* Media queries for responsive design */
+@mixin flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Media queries for responsive design */
 /* For mobile phones: */
 [class*="col-"]{
     width: 100%;
+}
+
+/* i need to do zombies flexbox game to understand this */
+.row {  
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // width: 75%;
 }
 
 /* For tablets: */

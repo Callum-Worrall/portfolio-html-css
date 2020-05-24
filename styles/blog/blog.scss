@@ -1,44 +1,73 @@
 @import "../style";
 
+
+/* Add a card effect for articles */
+div .post {
+    // background-color: grey;
+    padding: 20px;
+    margin: 50px;
+}
+
+div.post_head{
+    padding: 18px 5px;
+    background-color: rgb(236, 236, 236);
+    margin: 50px 0 10px;
+    vertical-align: middle;
+    table-layout: fixed;
+
+    font-size: x-large;
+}
+
+.title{
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 0; 
+}
+
+.date{
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.fake_img {
+    background-color: rgb(185, 185, 185);
+    // width: 100%;
+    padding: 100px;
+    margin: 5px;
+}
+
+img{
+    background-color:  rgb(236, 236, 236);
+}
+
+.post_body{
+    padding: 5px 2px;
+    margin: 10px 0;
+    width: 100%;    
+    background-color:  rgb(236, 236, 236);
+}
+
+.paragraph{
+    vertical-align: middle;
+    margin: 5px 5px;
+}
+
 /* Media queries for responsive design */
 
-/* For mobile phones: */
+/* Mobiles: */
 [class*="col-"]{
     width: 100%;
 }
 
-// footer {
-//     margin: 120px 0 0 0;
-// }
-
-/* For tablets: */
+/* Tablets: */
 @media only screen and (min-width: 600px) {
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+
 }
 
-    /* For desktop: */
+/* Desktop: */
 @media only screen and (min-width: 768px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+
 }

@@ -1,7 +1,6 @@
 @import "header";
 @import "footer";
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); /* font importer */
-// @import url("https://kit.fontawesome.com/29dc23af91.js");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 // apply margin and padding 0 to all elements
 *{
@@ -27,43 +26,43 @@ body {
     text-align: center;
 }
 
+div .block{
+    
+}
+
 .paragraph{
     margin: 20px 2%;
 }
 
-/* i need to do zombies flexbox game to understand this */
-.row {  
-    display: flex;
-    flex-direction: row;
-    // justify-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    // width: 75%;
+.fake_img {
+    background-color: rgb(185, 185, 185);
+    // width: 100%;
+    padding: 20px;
+    margin: 20px;
 }
 
-/* Media queries for responsive design */
-
-/* For mobile phones: */
+/* Mobile: */
 [class*="col-"]{
     width: 100%;
 }
 
-/* For tablets: */
+/* Tablets: */
 @media only screen and (min-width: 600px) {
-    header {font-size: 1.7em;}
+    header {font-size: 130%;}
+    
+    h1{
+        margin: 100px 0 0 0;
+    }
 }
 
-    /* For desktop: */
+/* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-    header {font-size: 200%;}
+    // 
+    header {font-size: 160%;}
     footer {font-size: 150%;}
 
     h1{
-        margin: -40px 0 30px;
-    }
-
-    h2{
-        margin: 20px;
+        margin: 100px 0 0 0;
     }
 
     .paragraph{
@@ -77,4 +76,11 @@ body {
     .social_icons{
         margin: 0 0 0 0;
     }
+}
+
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
+    // 
+    header {font-size: 200%;}
+    footer {font-size: 200%;}
 }
