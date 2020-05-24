@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 header {
-  height: 5%;
   width: 100%;
   position: fixed;
   left: 50%;
-  top: 6%;
+  top: 3%;
+  padding: 13px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 15.5px;
@@ -14,6 +14,7 @@ header {
 .navigation a {
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .navigation a:link {
@@ -36,17 +37,21 @@ header {
   text-decoration: underline;
 }
 
+.selected {
+  text-decoration: underline;
+}
+
 footer {
-  margin: 120px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 .email {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
 div .social_icons {
-  margin: 10px 0 0 0;
+  margin-top: 10px 0 0 0;
   font-size: 40px;
   text-align: center;
 }
@@ -59,20 +64,42 @@ div .social_icons {
 }
 
 h1 {
-  margin: 60px 0 0 0;
+  margin: 60px 0 5px 0;
   font-size: 55px;
   text-align: center;
 }
 
 h2 {
-  margin: 30px 10%;
+  margin: 10px 10%;
 }
 
 body {
-  margin: 0 5%;
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+div.sub_item {
+  vertical-align: top;
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.caption {
+  margin-top: 10px;
+  display: block;
 }
 
 .paragraph {
@@ -80,9 +107,11 @@ body {
 }
 
 .fake_img {
+  vertical-align: top;
+  display: inline-block;
   background-color: #b9b9b9;
-  padding: 20px;
-  margin: 20px;
+  padding: 130px 130px;
+  margin: 5px;
 }
 
 /* Mobile: */
@@ -98,6 +127,13 @@ body {
   h1 {
     margin: 100px 0 0 0;
   }
+  h2 {
+    font-size: 200%;
+  }
+  .caption {
+    margin-top: 10px;
+    display: block;
+  }
 }
 
 /* iPad/Desktop: */
@@ -109,16 +145,30 @@ body {
     font-size: 150%;
   }
   h1 {
-    margin: 100px 0 0 0;
+    margin: 80px 0 0 0;
+  }
+  body {
+    margin: 0 2%;
+  }
+  div.item {
+    width: 400px;
+    vertical-align: center;
   }
   .paragraph {
     margin: 20px 20% 0;
   }
   .email {
-    margin: 390px 0 0 0;
+    margin: 0;
   }
   .social_icons {
-    margin: 0 0 0 0;
+    margin: 0;
+  }
+  .fake_img {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #b9b9b9;
+    padding: 100px 100px;
+    margin-top: 5px;
   }
 }
 
@@ -132,38 +182,58 @@ body {
   }
 }
 
-/* Media queries for responsive design */
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
 }
 
+h2 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 div.item {
+  width: 95%;
+}
+
+div.sub_item {
   margin: 20px 10px;
-  vertical-align: top;
-  display: inline-block;
-  text-align: center;
   width: 120px;
 }
 
 img {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+  display: inline-block;
   background-color: grey;
 }
 
-.caption {
-  display: block;
+h2 {
+  margin: 10px;
 }
 
 .dot {
   height: 100px;
   width: 100px;
-  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  background-color: #bbb;
 }
 
-/* For tablets: */
-/* For desktop: */
+/* Tablets: */
+/* iPad/Desktop: */
+@media only screen and (min-width: 768px) {
+  div.item {
+    margin: 30px 30px;
+    vertical-align: center;
+  }
+}
+
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
+  div.item {
+    margin: 120px 60px;
+  }
+}
 /*# sourceMappingURL=skills.css.map */

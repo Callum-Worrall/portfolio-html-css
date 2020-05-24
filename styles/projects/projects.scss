@@ -1,14 +1,23 @@
 @import "../style";
 
-p{
-    margin: 10px 10px;
+div.item {
+    width: 320px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.caption {
+    font-size: 16px;
+    margin: 3px 6% 30px;
     text-align: left;
 }
 
 .paragraph{
     margin:0 0 50px
 }
-
 
 /* Mobile: */
 [class*="col-"]{
@@ -17,10 +26,40 @@ p{
 
 /* Tablet: */
 @media only screen and (min-width: 600px) {
+    div.item {
+        width: 620px;
+    }
 
+    img {
+        width: 600px;
+        height: 600px;
+        margin: 5px;
+    }
+
+    .caption {
+        margin: 6px 6% 40px;
+        text-align: left;
+        font-size: 150%;
+    }
 }
 
-/* Desktop: */
+/* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
+    h2{
+        font-size: 200%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
 
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
+    .fake_img{
+        padding: 200px;
+        margin: 0 5%;
+    }
+
+    div.item {
+        margin: 40px 7%;
+    }
 }

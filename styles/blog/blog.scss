@@ -32,13 +32,6 @@ div.post_head{
     line-height: 0;
 }
 
-.fake_img {
-    background-color: rgb(185, 185, 185);
-    // width: 100%;
-    padding: 100px;
-    margin: 5px;
-}
-
 img{
     background-color:  rgb(236, 236, 236);
 }
@@ -64,10 +57,26 @@ img{
 
 /* Tablets: */
 @media only screen and (min-width: 600px) {
+    .post_head{
+        vertical-align: top;
+        display: inline-block;
+        width: 70%;
+    }
 
+    .fake_img{
+        vertical-align: top;
+        display: inline-block;
+        width: 67%;
+    }
+
+    .post_body{
+        vertical-align: top;
+        display: inline-block;
+        width: 70%;
+    }
 }
 
-/* Desktop: */
+/* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
 
 }

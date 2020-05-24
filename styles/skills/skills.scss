@@ -1,43 +1,59 @@
 @import "../style";
 
-/* Media queries for responsive design */
-
 /* For mobile phones: */
 [class*="col-"]{
     width: 100%;
 }
 
+h2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 div.item {
+    width: 95%
+}
+
+div.sub_item {
     margin: 20px 10px;
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
     width: 120px;
 }
+
 img {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    display: inline-block;
     background-color: grey;
 }
 
-.caption {
-    display: block;
+h2{
+    margin: 10px;
 }
 
 .dot {
     height: 100px;
-    width: 100px;
-    background-color: #bbb;
+    width: 100px;    
     border-radius: 50%;
     display: inline-block;
+    background-color: #bbb;
 }
 
-/* For tablets: */
+/* Tablets: */
 @media only screen and (min-width: 600px) {
 
 }
 
-    /* For desktop: */
+/* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-
+    div.item {
+        margin: 30px 30px;
+        vertical-align: center;
+    }
+}
+/* Wide Desktop: */
+@media only screen and (min-width: 1000px) {
+    div.item {
+        margin: 120px 60px;
+    }
 }

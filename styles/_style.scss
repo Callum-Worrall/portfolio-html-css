@@ -10,24 +10,42 @@
 }
 
 h1 {
-    margin: 60px 0 0 0;
+    margin: 60px 0 5px 0;
     font-size: 55px;
     text-align: center;
 }
 
 h2{
-    margin: 30px 10%;
+    margin: 10px 10%;
 }
 
 body {
-    margin: 0 5%;
+    // margin-inline: 5%;
+    // margin: 0 2%;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
-div .block{
-    
+.container{
+    width: 100%;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    align-content: center;
+}
+
+div.sub_item {
+    vertical-align: top;
+    display: inline-block;    
+    align-content: center;
+}
+
+.caption {
+    margin-top: 10px;
+    display: block;
 }
 
 .paragraph{
@@ -35,10 +53,11 @@ div .block{
 }
 
 .fake_img {
+    vertical-align: top;
+    display: inline-block;
     background-color: rgb(185, 185, 185);
-    // width: 100%;
-    padding: 20px;
-    margin: 20px;
+    padding: 130px 130px;
+    margin: 5px;
 }
 
 /* Mobile: */
@@ -53,16 +72,33 @@ div .block{
     h1{
         margin: 100px 0 0 0;
     }
+    
+    h2{
+        font-size: 200%;
+    }
+
+    .caption {
+        margin-top: 10px;
+        display: block;
+    }
 }
 
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-    // 
     header {font-size: 160%;}
     footer {font-size: 150%;}
 
     h1{
-        margin: 100px 0 0 0;
+        margin: 80px 0 0 0;
+    }
+
+    body{
+        margin: 0 2%;
+    }
+
+    div.item {
+        width: 400px;
+        vertical-align: center;
     }
 
     .paragraph{
@@ -70,11 +106,19 @@ div .block{
     }
 
     .email{
-        margin: 390px 0 0 0;
+        margin: 0;
     }
 
     .social_icons{
-        margin: 0 0 0 0;
+        margin: 0;
+    }
+
+    .fake_img {
+        vertical-align: top;
+        display: inline-block;
+        background-color: rgb(185, 185, 185);
+        padding: 100px 100px;
+        margin-top: 5px;
     }
 }
 
@@ -82,5 +126,6 @@ div .block{
 @media only screen and (min-width: 1000px) {
     // 
     header {font-size: 200%;}
+
     footer {font-size: 200%;}
 }
