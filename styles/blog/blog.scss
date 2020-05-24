@@ -1,20 +1,23 @@
 @import "../style";
 
+p{
+    font-size: 18px;
+}
 
 /* Add a card effect for articles */
 div .post {
     // background-color: grey;
     padding: 20px;
     margin: 50px;
+    width: 90%;
 }
 
-div.post_head{
-    padding: 18px 5px;
-    margin: 50px 0 10px;
+.post_head{
+    padding: 18px;
+    margin: 1% 0 1%;
     vertical-align: middle;
     table-layout: fixed;
-
-    font-size: x-large;
+    // width: 90%;
 }
 
 .title{
@@ -22,6 +25,7 @@ div.post_head{
     text-align: left;
     vertical-align: middle;
     line-height: 0; 
+    margin-left: 5px;
 }
 
 .date{
@@ -29,6 +33,16 @@ div.post_head{
     text-align: right;
     vertical-align: middle;
     line-height: 0;
+    margin-right: 5px;
+}
+
+
+img {
+    vertical-align: top;
+    display: inline-block;
+    width: 99%;
+    margin: 0;
+    border-radius: 10%;
 }
 
 .post_body{
@@ -36,40 +50,68 @@ div.post_head{
     margin: 10px 0;
     width: 100%;    
     text-align: left;
+    // border-radius: 5%;
 }
 
 .paragraph{
     vertical-align: middle;
-    margin: 5px 5px;
+    margin: 5px 10px;
 }
 
 /* Tablets: */
 @media only screen and (min-width: 600px) {
-    .post_head{
-        vertical-align: top;
-        display: inline-block;
-        width: 70%;
-    }
 
-    .fake_img{
+}
+
+/* iPad/Desktop: */
+@media only screen and (min-width: 768px) {
+    // div.post_head{
+    //     vertical-align: top;
+    //     display: inline-block;
+    //     width: 1000px;
+    // }
+
+    img{
         vertical-align: top;
         display: inline-block;
-        width: 67%;
+        width: 98%;
     }
 
     .post_body{
         vertical-align: top;
         display: inline-block;
-        width: 70%;
+        width: 100%;
     }
-}
 
-/* iPad/Desktop: */
-@media only screen and (min-width: 768px) {
-
+    .paragraph{
+        vertical-align: middle;
+        margin: 5px 30px;
+        width: 92%;
+    }
 }
 
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
+    .post_head{
+        vertical-align: top;
+        display: inline-block;
+        width: 1000px;
+    }
 
+    img{
+        vertical-align: top;
+        display: inline-block;
+        width: 1000px;
+    }
+
+    .post_body{
+        vertical-align: top;
+        display: inline-block;
+        width: 1000px;
+    }
+
+    .paragraph{
+        vertical-align: middle;
+        margin: 5px 30px;
+    }
 }

@@ -6,36 +6,44 @@ $colour03: rgb(41, 160, 164);
 $colour04: rgb(82, 73, 72);
 $colour05: rgb(87, 70, 123);
 
+
+// $text: rgb(39, 39, 39);
+$text: rgb(54, 50, 50);
+$text_hover: rgb(82, 73, 72);
+
+#smoke_left { color: $colour02; }
+#smoke_right { color: $colour02; }
 // Header
 header{
-    color: $colour04;
+    color: $text;
     background-color: $colour02;
-    background: linear-gradient(to bottom, $colour02 20%, rgba(0,0,0,0));
+    background: linear-gradient(to bottom, $colour02 80%, rgba(0,0,0,0) 100%);
 }
-.navigation a{ color: $colour04; }
-.navigation a:link { color: $colour04; }
-.navigation a:visited { color: $colour04; }
-.navigation a:hover { color: $colour05; }
-.navigation a:active { color: $colour05; }
+
+.navigation a{ color: $text; }
+.navigation a:link { color:$text; }
+.navigation a:visited { color: $text; }
+.navigation a:hover { color: $colour04; }
+.navigation a:active { color: $colour04; }
 
 //General
 html {
-    color: $colour04;
-
+    color: $text;
+    // color: linear-gradient(to bottom, black 10%, white 100%);
     min-height: 100%;
     background-size: cover;
     background-color: $colour03;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, $colour02 10%, $colour03 100%);
+    background: linear-gradient(to bottom, $colour02 10%, $colour03 60%, $colour01 100%);
     background-attachment: fixed;
 }
 
-footer{
-    
-}
-
 //Blog
-div.post_head{ color: $colour02; background-color: $colour01; }
-.post_body{ color: white; background-color: $colour02; }
-
-// background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+.post_head{
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $colour01 3%, $colour01 97%, rgba(0,0,0,0) 100%);
+    color: $colour02; background-color: $colour01;
+}
+.post_body{
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $colour02 3%, $colour02 97%, rgba(0,0,0,0) 100%);
+    // color: white; background-color: $colour02; 
+}

@@ -1,0 +1,101 @@
+body {background: #18d0f0}
+
+/* Smoke container */
+
+#smoke_left {
+	position: absolute;
+	z-index: 3;
+	width: 1px; height: 160px;
+	left: 15%; bottom: -10px;
+}
+
+#smoke_right {
+	position: absolute;
+	z-index: 3;
+	width: 1px; height: 160px;
+	left: 85%; bottom: -10px;
+}
+
+/* smoke balls */
+
+#smoke_left span { 
+  display: block;
+	position: absolute;
+	bottom: -35px; left: 50%; margin-left:-20px;
+	height: 0px; width: 0px;
+	border: 35px solid;
+	// border: 35px solid #4b4b4b;
+	border-radius: 35px;
+	left: -14px; opacity: 0;
+	transform: scale(1.6);
+}
+
+/* smoke balls */
+
+#smoke_right span { 
+  display: block;
+	position: absolute;
+	bottom: -35px; left: 50%; margin-left:-20px;
+	height: 0px; width: 0px;
+	border: 35px solid;
+	// border: 35px solid #4b4b4b;
+	border-radius: 35px;
+	left: -14px; opacity: 0;
+	transform: scale(1.6);
+}
+
+/* Smoke animation */
+
+@keyframes smokeL {
+	0%   { transform: scale(0.2) translate(0, 0) }
+	10%  { opacity: 1; transform: scale(0.2) translate(0, -5px) }
+	100% { opacity: 0; transform: scale(5) translate(-40px, -130px) }
+}
+
+@keyframes smokeR {
+	0%   { transform: scale(0.2) translate(0, 0) }
+	10%  { opacity: 1; transform: scale(0.2) translate(0, -5px) }
+	100% { opacity: 0; transform: scale(5) translate(40px, -130px) }
+}
+
+#smoke_left .s0 { animation: smokeL 10s 0s infinite }
+#smoke_left .s1 { animation: smokeR 10s 1s infinite }
+#smoke_left .s2 { animation: smokeL 10s 2s infinite }
+#smoke_left .s3 { animation: smokeR 10s 3s infinite }
+#smoke_left .s4 { animation: smokeL 10s 4s infinite }
+#smoke_left .s5 { animation: smokeR 10s 5s infinite }
+#smoke_left .s6 { animation: smokeL 10s 6s infinite }
+#smoke_left .s7 { animation: smokeR 10s 7s infinite }
+#smoke_left .s8 { animation: smokeL 10s 8s infinite }
+#smoke_left .s9 { animation: smokeR 10s 9s infinite }
+#smoke_left .s10 { animation: smokeL 10s 10s infinite }
+#smoke_left .s11 { animation: smokeR 10s 11s infinite }
+#smoke_left .s12 { animation: smokeL 10s 12s infinite }
+#smoke_left .s13 { animation: smokeR 10s 13s infinite }
+#smoke_left .s14 { animation: smokeL 10s 14s infinite }
+#smoke_left .s15 { animation: smokeR 10s 15s infinite }
+#smoke_left .s16 { animation: smokeL 10s 16s infinite }
+#smoke_left .s17 { animation: smokeR 10s 17s infinite }
+#smoke_left .s18 { animation: smokeL 10s 18s infinite }
+#smoke_left .s19 { animation: smokeR 10s 19s infinite }
+
+#smoke_right .s0 { animation: smokeR 10s 0s infinite }
+#smoke_right .s1 { animation: smokeL 10s 1s infinite }
+#smoke_right .s2 { animation: smokeR 10s 2s infinite }
+#smoke_right .s3 { animation: smokeL 10s 3s infinite }
+#smoke_right .s4 { animation: smokeR 10s 4s infinite }
+#smoke_right .s5 { animation: smokeL 10s 5s infinite }
+#smoke_right .s6 { animation: smokeR 10s 6s infinite }
+#smoke_right .s7 { animation: smokeL 10s 7s infinite }
+#smoke_right .s8 { animation: smokeR 10s 8s infinite }
+#smoke_right .s9 { animation: smokeL 10s 9s infinite }
+#smoke_right .s10 { animation: smokeR 10s 10s infinite }
+#smoke_right .s11 { animation: smokeL 10s 11s infinite }
+#smoke_right .s12 { animation: smokeR 10s 12s infinite }
+#smoke_right .s13 { animation: smokeL 10s 13s infinite }
+#smoke_right .s14 { animation: smokeR 10s 14s infinite }
+#smoke_right .s15 { animation: smokeL 10s 15s infinite }
+#smoke_right .s16 { animation: smokeR 10s 16s infinite }
+#smoke_right .s17 { animation: smokeL 10s 17s infinite }
+#smoke_right .s18 { animation: smokeR 10s 18s infinite }
+#smoke_right .s19 { animation: smokeL 10s 19s infinite }

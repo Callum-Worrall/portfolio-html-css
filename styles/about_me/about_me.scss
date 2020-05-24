@@ -1,8 +1,19 @@
 @import "../style";
 
+img {
+    margin: 3% 0 0;
+    width: 85%;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: grey;
+}
+
 /* Tablets: */
 @media only screen and (min-width: 600px) {
-
+    img{
+        margin: 2% 0 1%;
+        width: 400px;
+    }
 }
 
 /* iPad/Desktop: */
@@ -12,10 +23,5 @@
 
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
-    footer{
-        position: fixed;
-        left: 50%;
-        bottom: 1%;
-        transform: translate(-50%, -50%);
-    }
+
 }

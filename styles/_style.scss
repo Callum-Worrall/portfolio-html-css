@@ -80,6 +80,7 @@ div.sub_item {
         font-size: 200%;
     }
 
+
     .caption {
         margin-top: 10px;
         display: block;
@@ -95,6 +96,10 @@ div.sub_item {
         margin: 80px 0 0 0;
     }
 
+    p{
+        font-size: 120%;
+    }
+
     body{
         margin: 0 2%;
     }
@@ -105,7 +110,7 @@ div.sub_item {
     }
 
     .paragraph{
-        margin: 20px 20% 0;
+        margin: 20px 10% 0;
     }
 
     .email{
@@ -127,8 +132,12 @@ div.sub_item {
 
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
-    // 
-    header {font-size: 200%;}
 
+    header {font-size: 200%;}
     footer {font-size: 200%;}
+
+    
+    .paragraph{
+        margin: 20px 20% 0;
+    }
 }
