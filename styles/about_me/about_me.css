@@ -32,10 +32,6 @@ header {
   text-decoration: underline;
 }
 
-.selected {
-  text-decoration: underline;
-}
-
 footer {
   margin: 80px 0 50px 0;
 }
