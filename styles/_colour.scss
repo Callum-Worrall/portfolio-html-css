@@ -1,13 +1,14 @@
 $experiment: rgb(236, 185, 126);
 
 $tan1:rgb(236, 185, 126);
-$tan2:rgb(253, 201, 89);
+$tan2:rgb(255, 233, 177);
 
 $blue1: rgb(93, 219, 236);
 $blue2: rgb(56, 132, 194);
 
 $red1: rgb(146, 56, 33);
-$red2: rgb(146, 56, 33);
+$red2: rgb(214, 102, 74);
+$red3: rgb(136, 32, 6);
 
 $purple1: rgb(146, 102, 243);
 $purple2: rgb(91, 47, 185);
@@ -16,12 +17,12 @@ $blackish: rgb(10, 10, 10);
 
 $colour01: $red1;
 $colour02: $tan1;
-$colour03: $red1;
+$colour03: $blue2;
 
-$text: $colour01;
+$text: $blackish;
 $text_hover: $colour03;
 
-$header_text: $text;
+$header_text: $red3;
 $header_text_hover: $text_hover;
 
 //General
@@ -32,7 +33,7 @@ html {
     background-size: cover;
     background-color: $colour03;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, $tan1 30%, $tan2 100%);
+    background: linear-gradient(to bottom, $tan1 30%, $red2 100%);
     // background: linear-gradient(to bottom, $colour02 50%, $purple1 100%);
     // background: linear-gradient(to bottom, $colour02 30%, $blue1 100%);
     background-attachment: fixed;
@@ -44,6 +45,8 @@ header{
     background-color: $colour02;
     background: linear-gradient(to bottom, $colour02 80%, rgba(100, 86, 86, 0) 100%);
 }
+
+h1{ color: $header_text; }
 
 footer{
     color: $text;
