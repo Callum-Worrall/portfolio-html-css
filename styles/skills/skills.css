@@ -113,23 +113,23 @@ footer {
 }
 
 #smoke_left {
-  color: white;
+  color: blue;
 }
 
 #smoke_right {
-  color: white;
+  color: blue;
 }
 
 .navigation a {
-  color: black;
+  color: blue;
 }
 
 .navigation a:link {
-  color: black;
+  color: blue;
 }
 
 .navigation a:visited {
-  color: black;
+  color: blue;
 }
 
 .navigation a:hover {
@@ -141,19 +141,19 @@ footer {
 }
 
 .social_icons {
-  color: black;
+  color: blue;
 }
 
 .social_icons a {
-  color: black;
+  color: blue;
 }
 
 .social_icons a:link {
-  color: black;
+  color: blue;
 }
 
 .social_icons a:visited {
-  color: black;
+  color: blue;
 }
 
 .social_icons a:hover {

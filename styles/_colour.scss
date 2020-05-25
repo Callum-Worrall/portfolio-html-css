@@ -6,11 +6,13 @@ $tertiary_colour: blue;
 $text: $secondary_colour;
 $text_hover: red;
 
-$header_text: $text;
+$header_text: $tertiary_colour;
 $header_text_hover: $text_hover;
 
 $header_colour: $text;
 $header_text_hover: $text_hover;
+
+$link_colour: $tertiary_colour;
 
 //General
 html {
@@ -34,22 +36,23 @@ header{
 
 //Footer
 footer{ color: $text; }
-$social_icon_colour: $secondary_colour;
+$social_icon_colour: $link_colour;
 $social_icon_hover: $text_hover;
 
 //Skills
-$resume: $tertiary_colour;
+$resume: $link_colour;
+$resume_hover: $text_hover;
 
 //Front Page Smoke
-#smoke_left { color: $primary_colour; }
-#smoke_right { color: $primary_colour; }
+#smoke_left { color: $tertiary_colour; }
+#smoke_right { color: $tertiary_colour; }
 
 //Links
 
 //Found in Footer
-.navigation a{ color: $header_colour; }
-.navigation a:link { color:$header_colour; }
-.navigation a:visited { color: $header_colour; }
+.navigation a{ color: $header_text; }
+.navigation a:link { color:$header_text; }
+.navigation a:visited { color: $header_text; }
 .navigation a:hover { color: $header_text_hover; }
 .navigation a:active { color: $header_text_hover; }
 
