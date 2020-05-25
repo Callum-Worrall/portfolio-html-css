@@ -20,17 +20,15 @@ To serve as a portfolio for myself through an easy to link website that can quic
 
 ## Functionality / features
 
-- An introductory splash screen, to show off any flare
-- An about me section
-- A skill section with a link to my resume
-- A section to show off any projects I've done
-- A section where I can upload blogposts
+- An introductory splash screen, to show off any flare on the index.html.
+- An 'About Me' section.
+- A 'Skills' section with a link to my resume.
+- A 'Projects' section to show off any projects I'm doing or have completed.
+- A 'Blog section where I can upload posts/articles.
 - The footer on every page contains:
     - Email Address
-    
-    - Links to social accounts
-    
-    - A link to my github
+    - Links to social accounts, including Twitter and LinkedIn.
+    - A link to my Github
     
       
 
@@ -54,21 +52,21 @@ To serve as a portfolio for myself through an easy to link website that can quic
 
 ## Themes
 
+#### Turquoise Red Theme
 ![Alt text](/docs/turquoise_red_revised.png?raw=true "turquoise and red theme")
 
-#### Turquoise Red Theme
 
 
-
-![Alt text](/docs/red_black.png?raw=true "red and black theme")
 
 #### Red and Black Theme
+![Alt text](/docs/red_black.png?raw=true "red and black theme")
 
 
 
-![Alt text](/docs/sandboarder.png?raw=true "sandboarder theme")
 
 #### Sandboarder Theme
+![Alt text](/docs/sandboarder.png?raw=true "sandboarder theme")
+
 
 
 
