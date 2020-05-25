@@ -4,6 +4,11 @@ p{
     font-size: 18px;
 }
 
+content{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Add a card effect for articles */
 div .post {
     // background-color: grey;
@@ -65,11 +70,11 @@ img {
 
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-    // div.post_head{
-    //     vertical-align: top;
-    //     display: inline-block;
-    //     width: 1000px;
-    // }
+    .post_head{
+        vertical-align: top;
+        display: inline-block;
+        width: 1000px;
+    }
 
     img{
         vertical-align: top;

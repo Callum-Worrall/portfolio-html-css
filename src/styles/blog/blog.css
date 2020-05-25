@@ -330,6 +330,16 @@ p {
   font-size: 18px;
 }
 
+content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 /* Add a card effect for articles */
 div .post {
   padding: 20px;
@@ -383,6 +393,11 @@ img {
 /* Tablets: */
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
+  .post_head {
+    vertical-align: top;
+    display: inline-block;
+    width: 1000px;
+  }
   img {
     vertical-align: top;
     display: inline-block;
