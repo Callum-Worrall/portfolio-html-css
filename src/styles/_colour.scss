@@ -1,91 +1,67 @@
-$tan1:rgb(236, 185, 126);
-$tan2:rgb(255, 233, 177);
 
-$blue1: rgb(93, 219, 236);
-$blue2: rgb(56, 132, 194);
+$red: rgb(146, 33, 33);
+$yellow: rgb(255, 208, 0);
+$whitish: rgb(236, 236, 236);
+$blackish: rgb(10, 10, 10);
 
-$red1: rgb(146, 56, 33);
-$red2: rgb(214, 102, 74);
-$red3: rgb(136, 32, 6);
+$text: $whitish;
+$text_hover: $red;
 
-$purple1: rgb(146, 102, 243);
-$purple2: rgb(91, 47, 185);
+$header_text: $whitish;
+$header_text_hover: $red;
 
-$blackish: rgb(44, 44, 44);
-
-$primary_colour: $tan1;
-$secondary_colour: $red1;
-$tertiary_colour: $blue2;
-
-$text: $blackish;
-$text_hover: $tertiary_colour;
-
-$header_colour: $secondary_colour;
-$header_text_hover: $text_hover;
+#smoke_left { color: $red; }
+#smoke_right { color: $red; }
 
 //General
 html {
     color: $text;
     min-height: 100%;
     background-size: cover;
+    background-color: $blackish;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, $primary_colour 30%, $secondary_colour 100%);
     background-attachment: fixed;
 }
 
-h1{ color: $header_colour; }
-
-h2 { color: $blackish }
-
-//Header
-header{
-    color: $header_colour;
-    background: linear-gradient(to bottom, $primary_colour 80%, rgba(100, 86, 86, 0) 100%);
+h2 {
+    color: $red;
 }
 
-//Footer
-footer{ color: $text; }
-$social_icon_colour: $primary_colour;
-$social_icon_hover: $tertiary_colour;
+// Header
+header{
+    color: $header_text;
+    background-color: $blackish;
+}
 
-//Skills
-$resume: $purple1;
-$resume_hover: $text_hover;
+footer{
+    color: $text;
+}
 
-//Front Page Smoke
-#smoke_left { color: $primary_colour; }
-#smoke_right { color: $primary_colour; }
-
-//Links
-
-//Found in Footer
-.navigation a{ color: $header_colour; }
-.navigation a:link { color:$header_colour; }
-.navigation a:visited { color: $header_colour; }
+.navigation a{ color: $header_text; }
+.navigation a:link { color:$header_text; }
+.navigation a:visited { color: $header_text; }
 .navigation a:hover { color: $header_text_hover; }
 .navigation a:active { color: $header_text_hover; }
 
-//Found in Header
-.social_icons { color: $social_icon_colour; }
-.social_icons a{ color: $social_icon_colour; }
-.social_icons a:link{ color:$social_icon_colour; }
-.social_icons a:visited{ color: $social_icon_colour; }
-.social_icons a:hover { color: $social_icon_hover; }
-.social_icons a:active { color: $social_icon_hover; }
+.resume a{ color: $yellow; }
+.resume a:link { color:$yellow; }
+.resume a:visited { color: $yellow; }
+.resume a:hover { color: $text_hover; }
+.resume a:active { color: $yellow; }
 
-//Found in Skills
-.resume a{ color: $resume; }
-.resume a:link { color:$resume; }
-.resume a:visited { color: $resume; }
-.resume a:hover { color: $resume_hover; }
-.resume a:active { color: $resume_hover; }
+.social_icons { color: $yellow; }
+.social_icons a{ color: $yellow; }
+.social_icons a:link{ color:$yellow; }
+.social_icons a:visited{ color: $yellow; }
+.social_icons a:hover { color: $text_hover; }
+.social_icons a:active { color: $yellow; }
 
-//Blog.html
+
+//Blog
 .post_head{
-    color: $primary_colour;
-    background-color: $secondary_colour;
+    color: $whitish;
+    background-color: $red;
 }
 .post_body{
-    color: $primary_colour;
-    background-color: $secondary_colour;
+    color: white;
 }
