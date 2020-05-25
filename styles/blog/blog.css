@@ -91,8 +91,8 @@ html {
   background-size: cover;
   background-color: #3884c2;
   background-repeat: no-repeat;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ecb97e), to(#d6664a));
-  background: linear-gradient(to bottom, #ecb97e 30%, #d6664a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ecb97e), to(#923821));
+  background: linear-gradient(to bottom, #ecb97e 30%, #923821 100%);
   background-attachment: fixed;
 }
 
