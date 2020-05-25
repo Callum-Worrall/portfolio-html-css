@@ -1,67 +1,82 @@
 
-$red: rgb(146, 33, 33);
-$yellow: rgb(255, 208, 0);
-$whitish: rgb(236, 236, 236);
-$blackish: rgb(10, 10, 10);
+$primary_colour: white;
+$secondary_colour: black;
+$tertiary_colour: blue;
 
-$text: $whitish;
-$text_hover: $red;
+$text: $secondary_colour;
+$text_hover: red;
 
-$header_text: $whitish;
-$header_text_hover: $red;
+$header_text: $tertiary_colour;
+$header_text_hover: $text_hover;
 
-#smoke_left { color: $red; }
-#smoke_right { color: $red; }
+$header_colour: $text;
+$header_text_hover: $text_hover;
+
+$link_colour: $tertiary_colour;
 
 //General
 html {
     color: $text;
     min-height: 100%;
     background-size: cover;
-    background-color: $blackish;
     background-repeat: no-repeat;
+    background-color: $primary_colour;
     background-attachment: fixed;
 }
 
-h2 {
-    color: $red;
-}
+h1{ color: $secondary_colour; }
 
-// Header
+h2 { color: $secondary_colour }
+
+//Header
 header{
-    color: $header_text;
-    background-color: $blackish;
+    color: $header_colour;
+    background: linear-gradient(to bottom, $primary_colour 80%, rgba(100, 86, 86, 0) 100%);
 }
 
-footer{
-    color: $text;
-}
+//Footer
+footer{ color: $text; }
+$social_icon_colour: $link_colour;
+$social_icon_hover: $text_hover;
 
+//Skills
+$resume: $link_colour;
+$resume_hover: $text_hover;
+
+//Front Page Smoke
+#smoke_left { color: $tertiary_colour; }
+#smoke_right { color: $tertiary_colour; }
+
+//Links
+
+//Found in Footer
 .navigation a{ color: $header_text; }
 .navigation a:link { color:$header_text; }
 .navigation a:visited { color: $header_text; }
 .navigation a:hover { color: $header_text_hover; }
 .navigation a:active { color: $header_text_hover; }
 
-.resume a{ color: $yellow; }
-.resume a:link { color:$yellow; }
-.resume a:visited { color: $yellow; }
+//Found in Header
+.social_icons { color: $social_icon_colour; }
+.social_icons a{ color: $social_icon_colour; }
+.social_icons a:link{ color:$social_icon_colour; }
+.social_icons a:visited{ color: $social_icon_colour; }
+.social_icons a:hover { color: $social_icon_hover; }
+.social_icons a:active { color: $social_icon_hover; }
+
+//Found in Skills
+.resume a{ color: $resume; }
+.resume a:link { color:$resume; }
+.resume a:visited { color: $resume; }
 .resume a:hover { color: $text_hover; }
-.resume a:active { color: $yellow; }
+.resume a:active { color: $text_hover; }
 
-.social_icons { color: $yellow; }
-.social_icons a{ color: $yellow; }
-.social_icons a:link{ color:$yellow; }
-.social_icons a:visited{ color: $yellow; }
-.social_icons a:hover { color: $text_hover; }
-.social_icons a:active { color: $yellow; }
-
-
-//Blog
+//Blog.html
 .post_head{
-    color: $whitish;
-    background-color: $red;
+    color: $primary_colour;
+    background-color: $secondary_colour;
 }
 .post_body{
-    color: white;
+    color: $primary_colour;
+    background-color: $secondary_colour;
 }
