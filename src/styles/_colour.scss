@@ -1,68 +1,71 @@
 $tan1:rgb(236, 185, 126);
 $tan2:rgb(255, 233, 177);
 
-$red: rgb(207, 67, 69);
-$pink: rgb(234, 92, 94);
-$turquoise: rgb(23, 202, 142);
-$cyan: rgb(41, 160, 164);
-$blue: rgb(33, 100, 146);
-$liver: rgb(81, 53, 83);
+$blue1: rgb(93, 219, 236);
+$blue2: rgb(56, 132, 194);
 
-$blackish: rgb(56, 56, 56);
+$red1: rgb(146, 56, 33);
+$red2: rgb(214, 102, 74);
+$red3: rgb(136, 32, 6);
 
-$primary_colour: $turquoise;
-$secondary_colour: $red;
-$tertiary_colour: $blue;
+$purple1: rgb(146, 102, 243);
+$purple2: rgb(91, 47, 185);
+
+$blackish: rgb(44, 44, 44);
+
+$primary_colour: $tan1;
+$secondary_colour: $red1;
+$tertiary_colour: $blue2;
 
 $text: $blackish;
-$text_hover: $primary_colour;
+$text_hover: $tertiary_colour;
 
-$header_text: $primary_colour;
-$header_text_hover: $primary_colour;
+$header_colour: $secondary_colour;
+$header_text_hover: $text_hover;
 
 //General
 html {
     color: $text;
     min-height: 100%;
     background-size: cover;
-    background-color: $secondary_colour;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, $secondary_colour 30%, $primary_colour 100%);
+    background: linear-gradient(to bottom, $primary_colour 30%, $secondary_colour 100%);
     background-attachment: fixed;
 }
 
-h1{ color: $tertiary_colour; }
+h1{ color: $header_colour; }
 
-// Header
+h2 { color: $blackish }
+
+//Header
 header{
-    color: $header_text;
-    background-color: $tertiary_colour;
-    background: linear-gradient(to bottom, $secondary_colour 80%, rgba(100, 86, 86, 0) 100%);
+    color: $header_colour;
+    background: linear-gradient(to bottom, $primary_colour 80%, rgba(100, 86, 86, 0) 100%);
 }
 
 //Footer
 footer{ color: $text; }
-$social_icon_colour: $text;
-$social_icon_hover: $text_hover;
+$social_icon_colour: $primary_colour;
+$social_icon_hover: $tertiary_colour;
 
 //Skills
-$resume: $text;
+$resume: $purple1;
 $resume_hover: $text_hover;
 
 //Front Page Smoke
-#smoke_left { color: $tertiary_colour; }
-#smoke_right { color: $tertiary_colour; }
+#smoke_left { color: $primary_colour; }
+#smoke_right { color: $primary_colour; }
 
 //Links
 
-//Found in Header
-.navigation a{ color: $header_text; }
-.navigation a:link { color:$header_text; }
-.navigation a:visited { color: $header_text; }
+//Found in Footer
+.navigation a{ color: $header_colour; }
+.navigation a:link { color:$header_colour; }
+.navigation a:visited { color: $header_colour; }
 .navigation a:hover { color: $header_text_hover; }
 .navigation a:active { color: $header_text_hover; }
 
-//Found in Footer
+//Found in Header
 .social_icons { color: $social_icon_colour; }
 .social_icons a{ color: $social_icon_colour; }
 .social_icons a:link{ color:$social_icon_colour; }
@@ -79,8 +82,10 @@ $resume_hover: $text_hover;
 
 //Blog.html
 .post_head{
-    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $primary_colour 2%, $primary_colour 98%, rgba(0,0,0,0) 100%);
+    color: $primary_colour;
+    background-color: $secondary_colour;
 }
 .post_body{
-    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $primary_colour 3%, $primary_colour 97%, rgba(0,0,0,0) 100%);
+    color: $primary_colour;
+    background-color: $secondary_colour;
 }
