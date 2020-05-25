@@ -213,7 +213,7 @@ h2 {
 
 body {
   font-family: 'Rubik', sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -276,7 +276,7 @@ div.sub_item {
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
   header {
-    font-size: 150%;
+    font-size: 210%;
   }
   footer {
     font-size: 150%;
@@ -315,7 +315,7 @@ div.sub_item {
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
   header {
-    font-size: 200%;
+    font-size: 280%;
   }
   footer {
     font-size: 200%;
@@ -325,10 +325,13 @@ div.sub_item {
   }
 }
 
+p {
+  font-size: 12px;
+}
+
 /* Add a card effect for articles */
 .post {
-  padding: 20px;
-  margin: 20px 0 40px 0;
+  margin: 0;
   width: 100%;
 }
 
@@ -338,6 +341,7 @@ div.sub_item {
   vertical-align: middle;
   table-layout: fixed;
   width: 100%;
+  font-weight: bolder;
 }
 
 .title {
@@ -379,8 +383,11 @@ img {
 /* Tablets: */
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
   .post {
-    margin: 50px 0 70px 0;
+    margin: 50px 0 0 0;
   }
   .paragraph {
     vertical-align: middle;
@@ -399,6 +406,12 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .post_head {
+    padding: 24px;
+  }
+  p {
+    font-size: 30px;
   }
   .post_head {
     vertical-align: top;

@@ -23,7 +23,7 @@ h2{
 
 body {
     font-family: 'Rubik', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ div.sub_item {
 
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-    header {font-size: 150%;}
+    header {font-size: 210%;}
     footer {font-size: 150%;}
 
     h1{
@@ -128,7 +128,7 @@ div.sub_item {
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
 
-    header {font-size: 200%;}
+    header {font-size: 280%;}
     footer {font-size: 200%;}
 
     
