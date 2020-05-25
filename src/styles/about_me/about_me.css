@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 header {
   width: 100%;
   position: fixed;
@@ -86,112 +86,111 @@ footer {
 }
 
 html {
-  color: black;
+  color: #383838;
   min-height: 100%;
   background-size: cover;
+  background-color: #cf4345;
   background-repeat: no-repeat;
-  background-color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #cf4345), to(#17ca8e));
+  background: linear-gradient(to bottom, #cf4345 30%, #17ca8e 100%);
   background-attachment: fixed;
 }
 
 h1 {
-  color: black;
-}
-
-h2 {
-  color: black;
+  color: #17ca8e;
 }
 
 header {
-  color: black;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, white), to(rgba(100, 86, 86, 0)));
-  background: linear-gradient(to bottom, white 80%, rgba(100, 86, 86, 0) 100%);
+  color: #17ca8e;
+  background-color: #216492;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #cf4345), to(rgba(100, 86, 86, 0)));
+  background: linear-gradient(to bottom, #cf4345 80%, rgba(100, 86, 86, 0) 100%);
 }
 
 footer {
-  color: black;
+  color: #383838;
 }
 
 #smoke_left {
-  color: blue;
+  color: #216492;
 }
 
 #smoke_right {
-  color: blue;
+  color: #216492;
 }
 
 .navigation a {
-  color: blue;
+  color: #17ca8e;
 }
 
 .navigation a:link {
-  color: blue;
+  color: #17ca8e;
 }
 
 .navigation a:visited {
-  color: blue;
+  color: #17ca8e;
 }
 
 .navigation a:hover {
-  color: red;
+  color: #17ca8e;
 }
 
 .navigation a:active {
-  color: red;
+  color: #17ca8e;
 }
 
 .social_icons {
-  color: blue;
+  color: #383838;
 }
 
 .social_icons a {
-  color: blue;
+  color: #383838;
 }
 
 .social_icons a:link {
-  color: blue;
+  color: #383838;
 }
 
 .social_icons a:visited {
-  color: blue;
+  color: #383838;
 }
 
 .social_icons a:hover {
-  color: red;
+  color: #17ca8e;
 }
 
 .social_icons a:active {
-  color: red;
+  color: #17ca8e;
 }
 
 .resume a {
-  color: blue;
+  color: #383838;
 }
 
 .resume a:link {
-  color: blue;
+  color: #383838;
 }
 
 .resume a:visited {
-  color: blue;
+  color: #383838;
 }
 
 .resume a:hover {
-  color: red;
+  color: #17ca8e;
 }
 
 .resume a:active {
-  color: red;
+  color: #17ca8e;
 }
 
 .post_head {
-  color: white;
-  background-color: black;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(2%, #17ca8e), color-stop(98%, #17ca8e), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #17ca8e 2%, #17ca8e 98%, rgba(0, 0, 0, 0) 100%);
 }
 
 .post_body {
-  color: white;
-  background-color: black;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(3%, #17ca8e), color-stop(97%, #17ca8e), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #17ca8e 3%, #17ca8e 97%, rgba(0, 0, 0, 0) 100%);
 }
 
 * {
@@ -213,7 +212,7 @@ h2 {
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   text-align: center;
 }
