@@ -140,27 +140,27 @@ footer {
 }
 
 .social_icons {
-  color: #216492;
+  color: #cf4345;
 }
 
 .social_icons a {
-  color: #216492;
+  color: #cf4345;
 }
 
 .social_icons a:link {
-  color: #216492;
+  color: #cf4345;
 }
 
 .social_icons a:visited {
-  color: #216492;
+  color: #cf4345;
 }
 
 .social_icons a:hover {
-  color: #cf4345;
+  color: #216492;
 }
 
 .social_icons a:active {
-  color: #cf4345;
+  color: #216492;
 }
 
 .resume a {
