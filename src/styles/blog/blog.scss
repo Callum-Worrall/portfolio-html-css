@@ -1,13 +1,9 @@
 @import "../style";
 
-p{
-    font-size: 18px;
-}
-
-content{
-    display: flex;
-    flex-direction: column;
-}
+// content{
+//     display: flex;
+//     flex-direction: column;
+// }
 
 /* Add a card effect for articles */
 .post {
@@ -71,23 +67,24 @@ img {
 
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-    .post_head{
-        vertical-align: top;
-        display: inline-block;
-        width: 1000px;
-    }
 
-    img{
-        vertical-align: top;
-        display: inline-block;
-        width: 98%;
-    }
+    // .post_head{
+    //     vertical-align: top;
+    //     display: inline-block;
+    //     width: 1000px;
+    // }
 
-    .post_body{
-        vertical-align: top;
-        display: inline-block;
-        width: 100%;
-    }
+    // img{
+    //     vertical-align: top;
+    //     display: inline-block;
+    //     width: 98%;
+    // }
+
+    // .post_body{
+    //     vertical-align: top;
+    //     display: inline-block;
+    //     width: 100%;
+    // }
 
     .paragraph{
         vertical-align: middle;
@@ -98,6 +95,11 @@ img {
 
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
+    content{
+        display: flex;
+        flex-direction: column;
+    }
+
     .post_head{
         vertical-align: top;
         display: inline-block;
@@ -117,7 +119,6 @@ img {
     }
 
     .paragraph{
-        vertical-align: middle;
         margin: 5px 30px;
     }
 }

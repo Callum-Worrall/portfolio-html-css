@@ -325,20 +325,6 @@ div.sub_item {
   }
 }
 
-p {
-  font-size: 18px;
-}
-
-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 /* Add a card effect for articles */
 .post {
   padding: 20px;
@@ -393,21 +379,6 @@ img {
 /* Tablets: */
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
-  .post_head {
-    vertical-align: top;
-    display: inline-block;
-    width: 1000px;
-  }
-  img {
-    vertical-align: top;
-    display: inline-block;
-    width: 98%;
-  }
-  .post_body {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-  }
   .paragraph {
     vertical-align: middle;
     margin: 5px 30px;
@@ -417,6 +388,15 @@ img {
 
 /* Wide Desktop: */
 @media only screen and (min-width: 1000px) {
+  content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .post_head {
     vertical-align: top;
     display: inline-block;
@@ -433,7 +413,6 @@ img {
     width: 1000px;
   }
   .paragraph {
-    vertical-align: middle;
     margin: 5px 30px;
   }
 }
