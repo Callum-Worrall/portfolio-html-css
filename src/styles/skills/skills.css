@@ -97,11 +97,11 @@ html {
 }
 
 h1 {
-  color: #17ca8e;
+  color: #ecb97e;
 }
 
 header {
-  color: #17ca8e;
+  color: #ecb97e;
   background-color: #216492;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #cf4345), to(rgba(100, 86, 86, 0)));
   background: linear-gradient(to bottom, #cf4345 80%, rgba(100, 86, 86, 0) 100%);
@@ -120,67 +120,67 @@ footer {
 }
 
 .navigation a {
-  color: #17ca8e;
+  color: #ecb97e;
 }
 
 .navigation a:link {
-  color: #17ca8e;
+  color: #ecb97e;
 }
 
 .navigation a:visited {
-  color: #17ca8e;
+  color: #ecb97e;
 }
 
 .navigation a:hover {
-  color: #17ca8e;
+  color: #216492;
 }
 
 .navigation a:active {
-  color: #17ca8e;
+  color: #216492;
 }
 
 .social_icons {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .social_icons a {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .social_icons a:link {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .social_icons a:visited {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .social_icons a:hover {
-  color: #17ca8e;
+  color: #cf4345;
 }
 
 .social_icons a:active {
-  color: #17ca8e;
+  color: #cf4345;
 }
 
 .resume a {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .resume a:link {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .resume a:visited {
-  color: #383838;
+  color: #ecb97e;
 }
 
 .resume a:hover {
-  color: #17ca8e;
+  color: #216492;
 }
 
 .resume a:active {
-  color: #17ca8e;
+  color: #216492;
 }
 
 .post_head {

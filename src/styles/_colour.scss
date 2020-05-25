@@ -15,10 +15,10 @@ $secondary_colour: $red;
 $tertiary_colour: $blue;
 
 $text: $blackish;
-$text_hover: $primary_colour;
+$text_hover: $tertiary_colour;
 
-$header_text: $primary_colour;
-$header_text_hover: $primary_colour;
+$header_text: $tan1;
+$header_text_hover: $tertiary_colour;
 
 //General
 html {
@@ -31,7 +31,7 @@ html {
     background-attachment: fixed;
 }
 
-h1{ color: $primary_colour; }
+h1{ color: $tan1; }
 
 // Header
 header{
@@ -42,11 +42,11 @@ header{
 
 //Footer
 footer{ color: $text; }
-$social_icon_colour: $text;
-$social_icon_hover: $text_hover;
+$social_icon_colour: $tan1;
+$social_icon_hover: $secondary_colour;
 
 //Skills
-$resume: $text;
+$resume: $tan1;
 $resume_hover: $text_hover;
 
 //Front Page Smoke
