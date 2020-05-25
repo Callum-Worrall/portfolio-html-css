@@ -41,10 +41,48 @@ footer {
   text-align: center;
 }
 
-div .social_icons {
+.social_icons a {
   margin-top: 10px 0 0 0;
   font-size: 40px;
   text-align: center;
+}
+
+.social_icons a:link {
+  text-decoration: none;
+}
+
+.social_icons a:visited {
+  text-decoration: none;
+}
+
+.social_icons a:hover {
+  text-decoration: none;
+}
+
+.social_icons a:active {
+  text-decoration: none;
+}
+
+.social_icons i {
+  margin-top: 10px 0 0 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.social_icons a:link i {
+  text-decoration: none;
+}
+
+.social_icons a:visited {
+  text-decoration: none;
+}
+
+.social_icons a:hover {
+  text-decoration: none;
+}
+
+.social_icons a:active {
+  text-decoration: none;
 }
 
 #smoke_left {
@@ -100,6 +138,34 @@ header {
 
 .resume a:active {
   color: #524948;
+}
+
+.social_icons {
+  color: #363232;
+}
+
+.social_icons a {
+  color: #363232;
+}
+
+.social_icons a:link {
+  color: #363232;
+}
+
+.social_icons a:visited {
+  color: #363232;
+}
+
+.social_icons a:hover {
+  color: #524948;
+}
+
+.social_icons a:active {
+  color: #524948;
+}
+
+footer {
+  color: #363232;
 }
 
 html {
