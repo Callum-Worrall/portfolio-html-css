@@ -8,7 +8,8 @@ $colour05: rgb(87, 70, 123);
 $header_text: $text;
 $header_text_hover: $colour04;
 
-$text: rgb(54, 50, 50);
+// $text: rgb(54, 50, 50);
+$text: red;
 $text_hover: rgb(82, 73, 72);
 
 #smoke_left { color: $colour02; }
@@ -38,6 +39,7 @@ header{
 .social_icons a:visited{ color: $text; }
 .social_icons a:hover { color: $text_hover; }
 .social_icons a:active { color: $text_hover; }
+
 
 footer{
     color: $text;
