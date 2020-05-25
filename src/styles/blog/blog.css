@@ -213,7 +213,7 @@ h2 {
 
 body {
   font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
 }
 
@@ -328,8 +328,8 @@ div.sub_item {
 /* Add a card effect for articles */
 .post {
   padding: 20px;
-  margin: 50px 0 70px 0;
-  width: 90%;
+  margin: 20px 0 40px 0;
+  width: 100%;
 }
 
 .post_head {
@@ -337,6 +337,7 @@ div.sub_item {
   margin: 1% 0 1%;
   vertical-align: middle;
   table-layout: fixed;
+  width: 100%;
 }
 
 .title {
@@ -358,7 +359,7 @@ div.sub_item {
 img {
   vertical-align: top;
   display: inline-block;
-  width: 99%;
+  width: 100%;
   margin: 0;
   border-radius: 10%;
 }
@@ -378,6 +379,9 @@ img {
 /* Tablets: */
 /* iPad/Desktop: */
 @media only screen and (min-width: 768px) {
+  .post {
+    margin: 50px 0 70px 0;
+  }
   .paragraph {
     vertical-align: middle;
     margin: 5px 30px;
@@ -399,17 +403,17 @@ img {
   .post_head {
     vertical-align: top;
     display: inline-block;
-    width: 1000px;
+    width: 80%;
   }
   img {
     vertical-align: top;
     display: inline-block;
-    width: 1000px;
+    width: 80%;
   }
   .post_body {
     vertical-align: top;
     display: inline-block;
-    width: 1000px;
+    width: 80%;
   }
   .paragraph {
     margin: 5px 30px;

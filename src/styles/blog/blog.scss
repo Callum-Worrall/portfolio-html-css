@@ -3,16 +3,21 @@
 // content{
 //     display: flex;
 //     flex-direction: column;
+//     justify-content: center;
+// }
+
+// p{
+//     font-size: 4px;
 // }
 
 /* Add a card effect for articles */
 .post {
     // background-color: grey;
     padding: 20px;
-    margin: 50px 0 70px 0;
+    margin: 20px 0 40px 0;
     // margin-top: 50px;
     // margin-bottom: 70px;
-    width: 90%;
+    width: 100%;
 }
 
 .post_head{
@@ -20,7 +25,7 @@
     margin: 1% 0 1%;
     vertical-align: middle;
     table-layout: fixed;
-    // width: 90%;
+    width: 100%;
 }
 
 .title{
@@ -43,7 +48,7 @@
 img {
     vertical-align: top;
     display: inline-block;
-    width: 99%;
+    width: 100%;
     margin: 0;
     border-radius: 10%;
 }
@@ -86,6 +91,8 @@ img {
     //     display: inline-block;
     //     width: 100%;
     // }
+    .post{ margin: 50px 0 70px 0; }
+    
 
     .paragraph{
         vertical-align: middle;
@@ -104,19 +111,19 @@ img {
     .post_head{
         vertical-align: top;
         display: inline-block;
-        width: 1000px;
+        width: 80%;
     }
 
     img{
         vertical-align: top;
         display: inline-block;
-        width: 1000px;
+        width: 80%;
     }
 
     .post_body{
         vertical-align: top;
         display: inline-block;
-        width: 1000px;
+        width: 80%;
     }
 
     .paragraph{
