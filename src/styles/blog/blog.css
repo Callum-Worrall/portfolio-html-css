@@ -140,19 +140,19 @@ footer {
 }
 
 .social_icons {
-  color: #ecb97e;
+  color: #216492;
 }
 
 .social_icons a {
-  color: #ecb97e;
+  color: #216492;
 }
 
 .social_icons a:link {
-  color: #ecb97e;
+  color: #216492;
 }
 
 .social_icons a:visited {
-  color: #ecb97e;
+  color: #216492;
 }
 
 .social_icons a:hover {
@@ -164,15 +164,15 @@ footer {
 }
 
 .resume a {
-  color: #ecb97e;
+  color: #17ca8e;
 }
 
 .resume a:link {
-  color: #ecb97e;
+  color: #17ca8e;
 }
 
 .resume a:visited {
-  color: #ecb97e;
+  color: #17ca8e;
 }
 
 .resume a:hover {
@@ -340,9 +340,9 @@ content {
 }
 
 /* Add a card effect for articles */
-div .post {
+.post {
   padding: 20px;
-  margin: 50px;
+  margin: 70px;
   width: 90%;
 }
 
