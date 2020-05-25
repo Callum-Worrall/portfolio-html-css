@@ -13,9 +13,9 @@ $purple2: rgb(91, 47, 185);
 
 $blackish: rgb(10, 10, 10);
 
-$main_colour: $red1;
+$primary_colour: $red1;
 $secondary_colour: $blue2;
-$window_colour: $tan1;
+$tertiary_colour: $tan1;
 
 $text: $blackish;
 $text_hover: $secondary_colour;
@@ -30,7 +30,7 @@ html {
     background-size: cover;
     background-color: $secondary_colour;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, $tan1 30%, $red1 100%);
+    background: linear-gradient(to bottom, $tertiary_colour 30%, $primary_colour 100%);
     background-attachment: fixed;
 }
 
@@ -39,8 +39,8 @@ h1{ color: $header_text; }
 // Header
 header{
     color: $text;
-    background-color: $window_colour;
-    background: linear-gradient(to bottom, $window_colour 80%, rgba(100, 86, 86, 0) 100%);
+    background-color: $tertiary_colour;
+    background: linear-gradient(to bottom, $tertiary_colour 80%, rgba(100, 86, 86, 0) 100%);
 }
 
 .navigation a{ color: $header_text; }
@@ -60,8 +60,8 @@ footer{ color: $text; }
 .social_icons a:active { color: $text_hover; }
 
 //Index.html
-#smoke_left { color: $window_colour; }
-#smoke_right { color: $window_colour; }
+#smoke_left { color: $tertiary_colour; }
+#smoke_right { color: $tertiary_colour; }
 
 //Skills.html
 .resume a{ color: $text; }
@@ -72,9 +72,10 @@ footer{ color: $text; }
 
 //Blog.html
 .post_head{
-    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $main_colour 3%, $main_colour 97%, rgba(0,0,0,0) 100%);
-    color: $window_colour; background-color: $main_colour;
+    color: $tertiary_colour;
+    background-color: $primary_colour;
 }
 .post_body{
-    color: $blackish;
+    color: $tertiary_colour;
+    background-color: $primary_colour;
 }

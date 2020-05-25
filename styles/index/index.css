@@ -184,14 +184,13 @@ footer {
 }
 
 .post_head {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(3%, #923821), color-stop(97%, #923821), to(rgba(0, 0, 0, 0)));
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #923821 3%, #923821 97%, rgba(0, 0, 0, 0) 100%);
   color: #ecb97e;
   background-color: #923821;
 }
 
 .post_body {
-  color: #0a0a0a;
+  color: #ecb97e;
+  background-color: #923821;
 }
 
 * {
