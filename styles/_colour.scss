@@ -32,6 +32,12 @@ header{
 .resume a:hover { color: $text_hover; }
 .resume a:active { color: $text_hover; }
 
+.social_icons a{ color: $text; }
+.social_icons a:link { color:$text; }
+.social_icons a:visited { color: $text; }
+.social_icons a:hover { color: $text_hover; }
+.social_icons a:active { color: $text_hover; }
+
 //General
 html {
     color: $text;
