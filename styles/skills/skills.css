@@ -96,38 +96,15 @@ html {
   background-attachment: fixed;
 }
 
+h1 {
+  color: #882006;
+}
+
 header {
   color: #0a0a0a;
   background-color: #ecb97e;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ecb97e), to(rgba(100, 86, 86, 0)));
   background: linear-gradient(to bottom, #ecb97e 80%, rgba(100, 86, 86, 0) 100%);
-}
-
-h1 {
-  color: #882006;
-}
-
-footer {
-  color: #0a0a0a;
-}
-
-.post_head {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(3%, #923821), color-stop(97%, #923821), to(rgba(0, 0, 0, 0)));
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #923821 3%, #923821 97%, rgba(0, 0, 0, 0) 100%);
-  color: #ecb97e;
-  background-color: #923821;
-}
-
-.post_body {
-  color: #0a0a0a;
-}
-
-#smoke_left {
-  color: #ecb97e;
-}
-
-#smoke_right {
-  color: #ecb97e;
 }
 
 .navigation a {
@@ -150,24 +127,8 @@ footer {
   color: #3884c2;
 }
 
-.resume a {
+footer {
   color: #0a0a0a;
-}
-
-.resume a:link {
-  color: #0a0a0a;
-}
-
-.resume a:visited {
-  color: #0a0a0a;
-}
-
-.resume a:hover {
-  color: #3884c2;
-}
-
-.resume a:active {
-  color: #3884c2;
 }
 
 .social_icons {
@@ -192,6 +153,45 @@ footer {
 
 .social_icons a:active {
   color: #3884c2;
+}
+
+#smoke_left {
+  color: #ecb97e;
+}
+
+#smoke_right {
+  color: #ecb97e;
+}
+
+.resume a {
+  color: #0a0a0a;
+}
+
+.resume a:link {
+  color: #0a0a0a;
+}
+
+.resume a:visited {
+  color: #0a0a0a;
+}
+
+.resume a:hover {
+  color: #3884c2;
+}
+
+.resume a:active {
+  color: #3884c2;
+}
+
+.post_head {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(3%, #923821), color-stop(97%, #923821), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #923821 3%, #923821 97%, rgba(0, 0, 0, 0) 100%);
+  color: #ecb97e;
+  background-color: #923821;
+}
+
+.post_body {
+  color: #0a0a0a;
 }
 
 * {
