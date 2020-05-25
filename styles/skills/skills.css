@@ -86,111 +86,112 @@ footer {
 }
 
 html {
-  color: #0a0a0a;
+  color: black;
   min-height: 100%;
   background-size: cover;
-  background-color: #3884c2;
   background-repeat: no-repeat;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ecb97e), to(#923821));
-  background: linear-gradient(to bottom, #ecb97e 30%, #923821 100%);
+  background-color: white;
   background-attachment: fixed;
 }
 
 h1 {
-  color: #882006;
+  color: black;
+}
+
+h2 {
+  color: black;
 }
 
 header {
-  color: #0a0a0a;
-  background-color: #ecb97e;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ecb97e), to(rgba(100, 86, 86, 0)));
-  background: linear-gradient(to bottom, #ecb97e 80%, rgba(100, 86, 86, 0) 100%);
-}
-
-.navigation a {
-  color: #882006;
-}
-
-.navigation a:link {
-  color: #882006;
-}
-
-.navigation a:visited {
-  color: #882006;
-}
-
-.navigation a:hover {
-  color: #3884c2;
-}
-
-.navigation a:active {
-  color: #3884c2;
+  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, white), to(rgba(100, 86, 86, 0)));
+  background: linear-gradient(to bottom, white 80%, rgba(100, 86, 86, 0) 100%);
 }
 
 footer {
-  color: #0a0a0a;
-}
-
-.social_icons {
-  color: #0a0a0a;
-}
-
-.social_icons a {
-  color: #0a0a0a;
-}
-
-.social_icons a:link {
-  color: #0a0a0a;
-}
-
-.social_icons a:visited {
-  color: #0a0a0a;
-}
-
-.social_icons a:hover {
-  color: #3884c2;
-}
-
-.social_icons a:active {
-  color: #3884c2;
+  color: black;
 }
 
 #smoke_left {
-  color: #ecb97e;
+  color: white;
 }
 
 #smoke_right {
-  color: #ecb97e;
+  color: white;
+}
+
+.navigation a {
+  color: black;
+}
+
+.navigation a:link {
+  color: black;
+}
+
+.navigation a:visited {
+  color: black;
+}
+
+.navigation a:hover {
+  color: red;
+}
+
+.navigation a:active {
+  color: red;
+}
+
+.social_icons {
+  color: black;
+}
+
+.social_icons a {
+  color: black;
+}
+
+.social_icons a:link {
+  color: black;
+}
+
+.social_icons a:visited {
+  color: black;
+}
+
+.social_icons a:hover {
+  color: red;
+}
+
+.social_icons a:active {
+  color: red;
 }
 
 .resume a {
-  color: #0a0a0a;
+  color: blue;
 }
 
 .resume a:link {
-  color: #0a0a0a;
+  color: blue;
 }
 
 .resume a:visited {
-  color: #0a0a0a;
+  color: blue;
 }
 
 .resume a:hover {
-  color: #3884c2;
+  color: red;
 }
 
 .resume a:active {
-  color: #3884c2;
+  color: red;
 }
 
 .post_head {
-  color: #ecb97e;
-  background-color: #923821;
+  color: white;
+  background-color: black;
 }
 
 .post_body {
-  color: #ecb97e;
-  background-color: #923821;
+  color: white;
+  background-color: black;
 }
 
 * {
