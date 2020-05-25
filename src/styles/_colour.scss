@@ -1,46 +1,52 @@
+$tan1:rgb(236, 185, 126);
+$tan2:rgb(255, 233, 177);
 
-$primary_colour: white;
-$secondary_colour: black;
-$tertiary_colour: blue;
+$red: rgb(207, 67, 69);
+$pink: rgb(234, 92, 94);
+$turquoise: rgb(23, 202, 142);
+$cyan: rgb(41, 160, 164);
+$blue: rgb(33, 100, 146);
+$liver: rgb(81, 53, 83);
 
-$text: $secondary_colour;
-$text_hover: red;
+$blackish: rgb(56, 56, 56);
 
-$header_text: $tertiary_colour;
-$header_text_hover: $text_hover;
+$primary_colour: $turquoise;
+$secondary_colour: $red;
+$tertiary_colour: $blue;
 
-$header_colour: $text;
-$header_text_hover: $text_hover;
+$text: $blackish;
+$text_hover: $primary_colour;
 
-$link_colour: $tertiary_colour;
+$header_text: $primary_colour;
+$header_text_hover: $primary_colour;
 
 //General
 html {
     color: $text;
     min-height: 100%;
     background-size: cover;
+    background-color: $secondary_colour;
     background-repeat: no-repeat;
-    background-color: $primary_colour;
+    background: linear-gradient(to bottom, $secondary_colour 30%, $primary_colour 100%);
     background-attachment: fixed;
 }
 
-h1{ color: $secondary_colour; }
+h1{ color: $header_text; }
 
-h2 { color: $secondary_colour }
-
-//Header
+// Header
 header{
-    color: $header_colour;
-    background: linear-gradient(to bottom, $primary_colour 80%, rgba(100, 86, 86, 0) 100%);
+    color: $header_text;
+    background-color: $tertiary_colour;
+    background: linear-gradient(to bottom, $secondary_colour 80%, rgba(100, 86, 86, 0) 100%);
 }
 
 //Footer
 footer{ color: $text; }
-$social_icon_colour: $link_colour;
+$social_icon_colour: $text;
 $social_icon_hover: $text_hover;
 
 //Skills
-$resume: $link_colour;
+$resume: $text;
 $resume_hover: $text_hover;
 
 //Front Page Smoke
@@ -49,14 +55,14 @@ $resume_hover: $text_hover;
 
 //Links
 
-//Found in Footer
+//Found in Header
 .navigation a{ color: $header_text; }
 .navigation a:link { color:$header_text; }
 .navigation a:visited { color: $header_text; }
 .navigation a:hover { color: $header_text_hover; }
 .navigation a:active { color: $header_text_hover; }
 
-//Found in Header
+//Found in Footer
 .social_icons { color: $social_icon_colour; }
 .social_icons a{ color: $social_icon_colour; }
 .social_icons a:link{ color:$social_icon_colour; }
@@ -68,15 +74,13 @@ $resume_hover: $text_hover;
 .resume a{ color: $resume; }
 .resume a:link { color:$resume; }
 .resume a:visited { color: $resume; }
-.resume a:hover { color: $text_hover; }
-.resume a:active { color: $text_hover; }
+.resume a:hover { color: $resume_hover; }
+.resume a:active { color: $resume_hover; }
 
 //Blog.html
 .post_head{
-    color: $primary_colour;
-    background-color: $secondary_colour;
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $primary_colour 2%, $primary_colour 98%, rgba(0,0,0,0) 100%);
 }
 .post_body{
-    color: $primary_colour;
-    background-color: $secondary_colour;
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, $primary_colour 3%, $primary_colour 97%, rgba(0,0,0,0) 100%);
 }
